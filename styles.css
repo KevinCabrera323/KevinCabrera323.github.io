@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200&family=Rajdhani:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    scroll-behavior: smooth;
+    background-color: #1e1e1e;
+}
+
+.HERO {
+    background-color: black;
+    background-image: url(photos/planta\ 4k\ \(1\).jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.NAV-CONTAINER {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 5vh 0;
+}
+
+.NAV-CONTAINER nav {
+    max-width: 55%;
+    min-width: 15rem;
+    border: 1px solid #8e8a85;
+    border-radius: 13px;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.NAV-CONTAINER nav ul {
+    width: 40rem;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.NAV-CONTAINER nav ul li a{
+    text-decoration: none;
+    color: #8e8a85;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    position: relative;
+}
+
+.WELCOME-CONTAINER {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WELCOME-CONTAINER h1 {
+    color: #cac6c6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.WELCOME-CONTAINER h1 span {
+    color: #e64d23;
+    font-weight: 300;
+}
+
+.separador {
+    position: absolute;
+    right: 25%;
+    top: 83vh;
+    background-image: linear-gradient(#1030a4 60%, #1e1e1e);
+    min-width: 40vw;
+    height: 14vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.separador p {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(215, 215, 215);
+    text-align: center;
+    font-weight: 200;
+}
+
+#section-1 {
+    width: 100%;
+    height: auto;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3vh 0 0 0;
+}
+
+.slider-track {
+    min-width: 50vh;
+    width: 90%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 0;
+}
+
+.quienes-somos {
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    margin: 6vh 0;
+}
+
+.container-foto-texto-1 {
+    display: flex;
+}
+
+.quienes-somos h1 {
+    font-family: 'poppins', sans serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #e1e0e0;
+    position: relative;
+}
+
+.quienes-somos h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50%;
+    border-bottom: 3px solid #e1e0e0;
+    transform: translateX(-50%);
+}
+
+#foto-info {
+    width: 45vw;
+    height: 60vh;
+    border-radius: 35px;
+    margin-right: 1.5vh;
+    background-image: url(photos/importancia-buena-regulacion-sector-electrico-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#texto-container-1 {
+    width: 45vw;
+    height: 60vh;
+    margin-left: 1.5vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto-container-1 p {
+    margin: 4vh;
+    color: #dad9d9;
+    font-family: 'poppins', sans-serif;
+    flex-wrap: nowrap;
+}
+
+#texto-container-1 p span {
+    color: #e64d23;
+}
+
+#foto-info-2 {
+    width: 45vw;
+    height: 60vh;
+    border-radius: 35px;
+    margin-left: 1.5vh;
+    background-image: url(photos/servidores.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foto-info-3 {
+    width: 45vw;
+    height: 60vh;
+    border-radius: 35px;
+    margin-right: 1.5vh;
+    background-image: url(photos/energia\ solar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#section-2 {
+    width: 100%;
+    height: auto;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container {
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 8vh 0;
+}
+
+.info {
+    width: 50vh;
+    height: 50vh;
+    border-radius: 10px;
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    margin: 10vh 6vh;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.info > div {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45%;
+}
+
+.foto img {
+    width: 12vh;
+}
+
+.texto-h1 {
+    width: 100%;
+    height: 30%;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rajdhani', sans-serif;
+    color: rgb(211, 211, 211);
+    font-size: 5vh;
+}
+
+.parrafo {
+    width: 100%;
+    height: 20%;
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(211, 211, 211);
+    font-style: italic;
+}
+
+.section-3 {
+    width: 100%;
+    height: auto;  
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+}
+
+.container-section-3 {
+    min-width: 80vw;
+    max-width: 90vw;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 3vh;
+}
+
+.section-4 {
+    width: 100%;
+    height: 40vh;
+}
+
+.container-top {
+    margin: 1vh 4vh 4vh 4vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.container-top div{
+    margin: 4vh 0 0 0;
+}
+
+.container-top div h1 {
+    color: #e1e0e0;
+    font-family: 'poppins', sans-serif;
+    font-size: 5vh;
+    font-weight: 500;
+}
+
+.container-top div p {
+    max-width: 70vw;
+    color: #dad9d9;
+    font-family: 'poppins', sans-serif;
+    font-weight: 100;
+}
+
+.container-bottom {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.img {
+    width: 100%;
+    height: 40vh;
+}
+
+.img img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    width: 100%;
+    height: 30vh;
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#top-footer {
+    max-width: 95%;
+    min-width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 3vh 0;
+    align-items: center;
+}
+
+#top-footer ul {
+    list-style: none;
+    display: flex;
+}
+
+#top-footer ul li {
+    margin: 0 1vh;
+}
+
+#top-footer ul li img {
+    width: 6vh;
+}
+
+#bottom-footer {
+    width: 95%;
+    max-width: 95%;
+    min-width: 60%;
+    height: 50%;
+    border-top: 2px solid rgba(127, 117, 117, 0.237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#bottom-footer a{
+    font-family: 'poppins', sans-serif;
+    margin: 0 3vh;
+}
+
