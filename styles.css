@@ -85,7 +85,7 @@ body {
 
 .separador {
     position: absolute;
-    right: 25%;
+    right: 30%;
     top: 83vh;
     background-image: linear-gradient(#1030a4 60%, #1e1e1e);
     min-width: 40vw;
